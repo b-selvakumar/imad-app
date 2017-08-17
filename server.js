@@ -17,12 +17,12 @@ app.get('/articleone',function(req, res) {
   res.send('Article One requested and will be served here..');
 } );
 
-app.get('articletwo', function(req,res){
+app.get('/articletwo', function(req,res){
     res.send('Article Two is requested and will be served here..');
 });
 
 
-app.get('articlethree',function(req, res){
+app.get('/articlethree',function(req, res){
    res.send('Article Three is requested here and will be served here...');
 });
 app.get('/ui/madi.png', function (req, res) {
