@@ -47,7 +47,7 @@ function createtemplate (data)
 }
 
 var articles = {
-    'article-one': {
+'article-one': {
        title: 'Article One Written by Selva',
        heading:'Article One',
        date1: '15-Aug-2017',
