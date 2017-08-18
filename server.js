@@ -53,7 +53,7 @@ var article_one = {
    date1: '15-Aug-2017',
    content: `
    <div>
-    <p> This is first article by Selva. This is the first article by Selva
+    <p> This is first article by Selva. This is the first article by Selva--
    </p>
    </div>`
 };
