@@ -20,8 +20,7 @@ function createtemplate (data)
             </title>
             <meta name="viewport" content="width-device-width, initial-scale=1" >
             <link href = "/ui/style.css" rel="stylesheet"/ >
-            </style>
-        </head>
+            </head>
         <body>
             <div class="container">
                 <div>
