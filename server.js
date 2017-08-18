@@ -47,7 +47,7 @@ function createtemplate (data)
 }
 
 var articles = {
-    'articleone': {
+    'article-one': {
        title: 'Article One Written by Selva',
        heading:'Article One',
        date1: '15-Aug-2017',
@@ -57,7 +57,7 @@ var articles = {
        </p>
        </div>`
     },
-'articletwo': {
+'article-two': {
        title: 'Article Two Written by Selva',
        heading:'Article Two',
        date1: '20-Aug-2017',
@@ -67,7 +67,7 @@ var articles = {
        </p>
        </div>`
     },
-'articlethree': {
+'article-three': {
        title: 'Article Three Written by Selva',
        heading:'Article Three',
        date1: '25-Aug-2017',
