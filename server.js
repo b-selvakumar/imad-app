@@ -47,7 +47,7 @@ function createtemplate (data)
 }
 
 var articles = {
-    'article-one': {
+    'articleone': {
        title: 'Article One Written by Selva',
        heading:'Article One',
        date1: '15-Aug-2017',
@@ -57,7 +57,7 @@ var articles = {
        </p>
        </div>`
     },
-'article-two': {
+'articletwo': {
        title: 'Article Two Written by Selva',
        heading:'Article Two',
        date1: '20-Aug-2017',
@@ -67,7 +67,7 @@ var articles = {
        </p>
        </div>`
     },
-'article-three': {
+'articlethree': {
        title: 'Article Three Written by Selva',
        heading:'Article Three',
        date1: '25-Aug-2017',
@@ -89,7 +89,7 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get(':/articleName',function(req, res) {
     articleName = req.params.articleName;
-  res.send(createtemplate(articles[articleName]));
+      res.send(createtemplate(articles[articleName]));
 } );
 
 
