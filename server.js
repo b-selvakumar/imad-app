@@ -53,7 +53,7 @@ var articles = {
        date1: '15-Aug-2017',
        content: `
        <div>
-        <p> This is first article by Selva. This is the first article by Selva--
+        <p> This is first article by Selva. This is the first article by Selva.
        </p>
        </div>`
     },
@@ -63,7 +63,7 @@ var articles = {
        date1: '20-Aug-2017',
        content: `
        <div>
-        <p> This is SECOND article by Selva. This is the SECOND article by Selva--
+        <p> This is SECOND article by Selva. This is the SECOND article by Selva.
        </p>
        </div>`
     },
@@ -73,7 +73,7 @@ var articles = {
        date1: '25-Aug-2017',
        content: `
        <div>
-        <p> This is THIRD article by Selva. This is the THIRD article by Selva--
+        <p> This is THIRD article by Selva. This is the THIRD article by Selva.
        </p>
        </div>`
     },
