@@ -37,11 +37,10 @@ function createtemplate (data)
                         ${date1}
                     </h4>    
                 </div>
-                ${content};
+                ${content}
             </div>
         </body>
-        
-    </html>
+        </html>
     `
     ;
     return htmltemplate;
