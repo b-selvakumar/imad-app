@@ -12,7 +12,7 @@ function createtemplate (data)
  var date1 = data.data1;
  var content = data.content;
  
-    var htlmtemplate = `
+    var htmltemplate = `
     <html>
         <head>
             <title>
