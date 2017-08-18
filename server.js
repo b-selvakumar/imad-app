@@ -9,7 +9,7 @@ function createtemplate (data)
 {
  var heading = data.heading;
  var title = data.title;
- var Date1 = data.data1;
+ var date1 = data.data1;
  var content = data.content;
  
     var htlmtemplate = `
@@ -35,10 +35,10 @@ function createtemplate (data)
                 </div>    
                 <div>
                     <h4>
-                        ${Date1}
+                        ${date1}
                     </h4>    
                 </div>
-                ${Content};
+                ${content};
             </div>
         </body>
         
@@ -51,8 +51,8 @@ function createtemplate (data)
 var article_one = {
    title: 'Article One Written by Selva',
    heading:'Article One',
-   Date1: '15-Aug-2017',
-   Content: `
+   date1: '15-Aug-2017',
+   content: `
    <div>
     <p> This is first article by Selva. This is the first article by Selva
    </p>
