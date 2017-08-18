@@ -45,6 +45,7 @@ function createtemplate (data)
     </html>
     
     `;
+    return htmltemplate;
 }
 
 var article_one = {
