@@ -98,7 +98,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('article/:articleName',function(req, res) {
+app.get('/:articleName',function(req, res) {
     alert ("test");
     var articleName = req.params.articleName;
     var querystring = "SELECT * FROM ARTICLE WHERE TITLE = '" + req.params.articleName + "'" ;
