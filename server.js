@@ -57,38 +57,7 @@ function createtemplate (data)
     return htmltemplate;
 }
 
-var articles = {
-'article-one': {
-       title: 'Article One Written by Selva',
-       heading:'Article One',
-       date1: '15-Aug-2017',
-       content: `
-       <div>
-        <p> This is first article by Selva. This is the first article by Selva.
-       </p>
-       </div>`
-    },
-'article-two': {
-       title: 'Article Two Written by Selva',
-       heading:'Article Two',
-       date1: '20-Aug-2017',
-       content: `
-       <div>
-        <p> This is SECOND article by Selva. This is the SECOND article by Selva.
-       </p>
-       </div>`
-    },
-'article-three': {
-       title: 'Article Three Written by Selva',
-       heading:'Article Three',
-       date1: '25-Aug-2017',
-       content: `
-       <div>
-        <p> This is THIRD article by Selva. This is the THIRD article by Selva.
-       </p>
-       </div>`
-    },
-};
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
