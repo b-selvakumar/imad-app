@@ -100,7 +100,7 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/:articleName',function(req, res) {
     alert ("test");
-    var articleName = req.params.articleName;
+   /* var articleName = req.params.articleName;
     var querystring = "SELECT * FROM ARTICLE WHERE TITLE = '" + req.params.articleName + "'" ;
   
     pool.query(querystring,function(err,results){
@@ -115,7 +115,7 @@ app.get('/:articleName',function(req, res) {
             
             }
         }
-    });
+    });*/
 } );
 
 
