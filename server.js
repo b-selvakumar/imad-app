@@ -106,15 +106,14 @@ app.get('article/:articleName',function(req, res) {
         if (err){
             res.status(500).send(err.toString());
         } else {
-            if (resutls.row.length === 0) {
+            if (results.row.length === 0) {
             res.status(404).send('Article Not found');
         } else {
         
          res.send(createtemplate(articleData));
         }
-    })
-} 
-});
+    }
+} );
 
 
 app.get('/ui/madi.png', function (req, res) {
