@@ -99,6 +99,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('article/:articleName',function(req, res) {
+    alert ("test");
     var articleName = req.params.articleName;
     var querystring = "SELECT * FROM ARTICLE WHERE TITLE = '" + req.params.articleName + "'" ;
   
