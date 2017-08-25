@@ -108,11 +108,13 @@ app.get('article/:articleName',function(req, res) {
         } else {
             if (results.row.length === 0) {
             res.status(404).send('Article Not found');
-        } else {
-        
-         res.send(createtemplate(articleData));
+            } else {
+            
+             res.send(createtemplate(articleData));
+            
+            }
         }
-    }
+    });
 } );
 
 
