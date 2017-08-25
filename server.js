@@ -114,7 +114,7 @@ app.get('/:articleName',function(req, res) {
             
             }
         }
-    });*/
+    });
 } );
 
 
