@@ -109,7 +109,7 @@ app.get('article/:articleName',function(req, res) {
             if (results.row.length === 0) {
             res.status(404).send('Article Not found');
             } else {
-            
+             var artilceData = results.row[0];
              res.send(createtemplate(articleData));
             
             }
