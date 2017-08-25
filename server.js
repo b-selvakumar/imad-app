@@ -99,10 +99,11 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/:articleName',function(req, res) {
-    res.send  ("ths is test page")
-   /* var articleName = req.params.articleName;
+   
+    var articleName = req.params.articleName;
     var querystring = "SELECT * FROM ARTICLE WHERE TITLE = '" + req.params.articleName + "'" ;
-  
+  res.send(querystring);
+  /*
     pool.query(querystring,function(err,results){
         if (err){
             res.status(500).send(err.toString());
