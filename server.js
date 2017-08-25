@@ -9,7 +9,7 @@ var config ={
     user:'bselvakumarb',
     database:'bselvakumarb',
     host:'db.imad.hasura-app.io',
-    port:'5342',
+    port:'5432',
     password: process.env.DB_PASSWORD
 };
 
@@ -104,6 +104,7 @@ app.get('/:articleName',function(req, res) {
     var querystring = "SELECT * FROM ARTICLE WHERE TITLE = '" + req.params.articleName + "'" ;
     res.send(querystring);
     pool.query(querystring,function(err,results){
+        alert
         if (err){
             res.status(500).send(err.toString());
         } else {
